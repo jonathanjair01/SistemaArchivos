@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="AuxArchivos">
+  <NavigationItems>
+    <Items>
+      <Item Id="Formatos Auxiliares De Archivo" Index="5" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="ArchivoGeneral_ListView" ViewId="ArchivoGeneral_ListView" ObjectKey="" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="Catálogos" Index="7" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="AreasProductoras_ListView" ViewId="AreasProductoras_ListView" ObjectKey="" IsNewNode="True" />
+          <Item Id="Legislaturas_ListView" ViewId="Legislaturas_ListView" ObjectKey="" IsNewNode="True" />
+          <Item Id="Secciones_ListView" ViewId="Secciones_ListView" ObjectKey="" IsNewNode="True" />
+          <Item Id="Series_ListView" ViewId="Series_ListView" ObjectKey="" IsNewNode="True" />
+          <Item Id="SubSeries_ListView" ViewId="SubSeries_ListView" ObjectKey="" IsNewNode="True" />
+          <Item Id="UnidadesAdministrativas_ListView" ViewId="UnidadesAdministrativas_ListView" ObjectKey="" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="Reports" Index="10" />
+      <Item Id="Default">
+        <Items>
+          <Item Id="ArchivoGeneral_ListView" Removed="True" />
+          <Item Id="AreasProductoras_ListView" Removed="True" />
+          <Item Id="Legislaturas_ListView" Removed="True" />
+          <Item Id="Secciones_ListView" Removed="True" />
+          <Item Id="Series_ListView" Removed="True" />
+          <Item Id="SubSeries_ListView" Removed="True" />
+          <Item Id="UnidadesAdministrativas_ListView" Removed="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Options>
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="17.2.13.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="17.2.13.0" IsNewNode="True" />
+  </SchemaModules>
+</Application>
