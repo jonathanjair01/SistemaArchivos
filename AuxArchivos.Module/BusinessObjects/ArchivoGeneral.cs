@@ -18,9 +18,9 @@ namespace AuxArchivos.Module.BusinessObjects
     [DefaultClassOptions]
     [XafDisplayName("Formatos")]
     [DefaultProperty("IdArchivo")]
-   
+
     public class ArchivoGeneral : BaseObject
-    { 
+    {
         public ArchivoGeneral(Session session)
             : base(session)
         {
@@ -94,6 +94,70 @@ namespace AuxArchivos.Module.BusinessObjects
         {
             get { return _FechaEmision; }
             set { SetPropertyValue("FechaEmision", ref _FechaEmision, value); }
+        }
+
+        //DLG: F2
+        private DateTime _FechaTranferencia;
+        public DateTime FechaTranferencia
+        {
+            get { return _FechaTranferencia; }
+            set { SetPropertyValue("FechaTranferencia", ref _FechaTranferencia, value); }
+        }
+
+        //DLG: F2
+        private int _NoTranferencia;
+        public int NoTranferencia
+        {
+            get { return _NoTranferencia; }
+            set { SetPropertyValue("NoTranferencia", ref _NoTranferencia, value); }
+        }
+
+        //DLG: F2
+        private int _NoPaginas;
+        public int NoPaginas
+        {
+            get { return _NoPaginas; }
+            set { SetPropertyValue("NoPaginas", ref _NoPaginas, value); }
+        }
+
+        //DLG: F2
+        private int _NoExpedientes;
+        public int NoExpedientes
+        {
+            get { return _NoExpedientes; }
+            set { SetPropertyValue("NoExpedientes", ref _NoExpedientes, value); }
+        }
+
+        //DLG: F2
+        private DateTime _AnioA;
+        public DateTime AnioA
+        {
+            get { return _AnioA; }
+            set { SetPropertyValue("AnioA", ref _AnioA, value); }
+        }
+
+        //DLG: F2
+        private DateTime _AnioB;
+        public DateTime AnioB
+        {
+            get { return _AnioB; }
+            set { SetPropertyValue("AnioB", ref _AnioB, value); }
+        }
+
+        //DLG: F2
+        private int _NoCajas;
+        public int NoCajas
+        {
+            get { return _NoCajas; }
+            set { SetPropertyValue("NoCajas", ref _NoCajas, value); }
+        }
+
+        //DLG: F2
+        private int _Peso;
+        public int Peso
+        {
+            get { return _Peso; }
+            set { SetPropertyValue("Peso", ref _Peso, value); }
         }
 
         public override void AfterConstruction()
