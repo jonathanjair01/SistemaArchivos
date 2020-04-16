@@ -160,6 +160,74 @@ namespace AuxArchivos.Module.BusinessObjects
             set { SetPropertyValue("Peso", ref _Peso, value); }
         }
 
+        //DLG: Elaboro
+        //DLG: F2
+        private String _NombreElaboro;
+        public String NombreElaboro
+        {
+            get { return _NombreElaboro; }
+            set { SetPropertyValue("NombreElaboro", ref _NombreElaboro, value); }
+        }
+
+        //DLG: F2
+        private String _CargoyAreaElaboro;
+        public String CargoyAreaElaboro
+        {
+            get { return _CargoyAreaElaboro; }
+            set { SetPropertyValue("CargoyAreaElaboro", ref _CargoyAreaElaboro, value); }
+        }
+
+        //DLG: Reviso
+        //DLG: F2
+        private String _NombreReviso;
+        public String NombreReviso
+        {
+            get { return _NombreReviso; }
+            set { SetPropertyValue("NombreReviso", ref _NombreReviso, value); }
+        }
+
+        //DLG: F2
+        private String _CargoyAreaReviso;
+        public String CargoyAreaReviso
+        {
+            get { return _CargoyAreaReviso; }
+            set { SetPropertyValue("CargoyAreaReviso", ref _CargoyAreaReviso, value); }
+        }
+
+        //DLG: Autorizo
+        //DLG: F2
+        private String _NombreAutorizo;
+        public String NombreAutorizo
+        {
+            get { return _NombreAutorizo; }
+            set { SetPropertyValue("NombreAutorizo", ref _NombreAutorizo, value); }
+        }
+
+        //DLG: F2
+        private String _CargoyAreaAutorizo;
+        public String CargoyAreaAutorizo
+        {
+            get { return _CargoyAreaAutorizo; }
+            set { SetPropertyValue("CargoyAreaAutorizo", ref _CargoyAreaAutorizo, value); }
+        }
+
+        //DLG: Valido
+        //DLG: F2
+        private String _NombreValido;
+        public String NombreValido
+        {
+            get { return _NombreValido; }
+            set { SetPropertyValue("NombreValido", ref _NombreValido, value); }
+        }
+
+        //DLG: F2
+        private String _CargoyAreaValido;
+        public String CargoyAreaValido
+        {
+            get { return _CargoyAreaValido; }
+            set { SetPropertyValue("CargoyAreaValido", ref _CargoyAreaValido, value); }
+        }
+
         public override void AfterConstruction()
         {
             base.AfterConstruction();
