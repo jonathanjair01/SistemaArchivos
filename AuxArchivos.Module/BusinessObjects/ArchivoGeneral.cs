@@ -12,6 +12,8 @@ using DevExpress.ExpressApp.Model;
 using DevExpress.Persistent.BaseImpl;
 using DevExpress.Persistent.Validation;
 using AuxArchivos.Module.BusinessObjects.InventarioTransferencia;
+using DevExpress.ExpressApp.ConditionalAppearance;
+using DevExpress.ExpressApp.Editors;
 
 namespace AuxArchivos.Module.BusinessObjects
 {
@@ -28,7 +30,8 @@ namespace AuxArchivos.Module.BusinessObjects
 
         //DLG: Propiedad para seleccionar el formato o accion a realizar, permite el filtrado de propiedades de acuerdo al trámite
         private FormatosDeArchivo formato;
-        [XafDisplayName("Acción / Formato a realizar"), ToolTip("My hint message")]
+        [ImmediatePostData]
+        [XafDisplayName("Tipo de Formato a realizar"), ToolTip("Selecciona un formato a realizar")]
         //[ModelDefault("EditMask", "(000)-00"), Index(0), VisibleInListView(false)]
         //[Persistent("DatabaseColumnName"), RuleRequiredField(DefaultContexts.Save)]
         public FormatosDeArchivo Formato
@@ -46,43 +49,49 @@ namespace AuxArchivos.Module.BusinessObjects
             set { SetPropertyValue("IdArchivo", ref _IdArchivo, value); }
         }
 
-        //DLG: F1
+        //DLG: F1 o F2
         private UnidadesAdministrativas _NombreUnidad;
+        [XafDisplayName("Unidad Administrativa")]
         public UnidadesAdministrativas NombreUnidad
         {
             get { return _NombreUnidad; }
             set { SetPropertyValue("NombreUnidad", ref _NombreUnidad, value); }
         }
-        //DLG: F1
+        //DLG: F1 o F2
         private AreasProductoras _AreaProductora;
+        [XafDisplayName("Área Productora")]
         public AreasProductoras AreaProductora
         {
             get { return _AreaProductora; }
             set { SetPropertyValue("AreaProductora", ref _AreaProductora, value); }
         }
-        //DLG: F1
+        //DLG: F1 o F2
         private Legislaturas _NumeroLegislatura;
+        [XafDisplayName("No. de Legislatura")]
         public Legislaturas NumeroLegislatura
         {
             get { return _NumeroLegislatura; }
             set { SetPropertyValue("NumeroLegislatura", ref _NumeroLegislatura, value); }
         }
-        //DLG: F1
+        //DLG: F1 o F2
         private Secciones _Seccion;
+        [XafDisplayName("Sección")]
         public Secciones Seccion
         {
             get { return _Seccion; }
             set { SetPropertyValue("Seccion", ref _Seccion, value); }
         }
-        //DLG: F1
+        //DLG: F1 o F2
         private Series _Serie;
+        [XafDisplayName("Serie")]
         public Series Serie
         {
             get { return _Serie; }
             set { SetPropertyValue("Seria", ref _Serie, value); }
         }
-        //DLG: F1
+        //DLG: F1 o F2
         private SubSeries _SubSerie;
+        [XafDisplayName("Subserie")]
         public SubSeries SubSerie
         {
             get { return _SubSerie; }
@@ -90,6 +99,8 @@ namespace AuxArchivos.Module.BusinessObjects
         }
         //DLG: F1
         private DateTime _FechaEmision;
+        [XafDisplayName("Fecha de Emisión")]
+        [Appearance("FechaEmision", Visibility = ViewItemVisibility.Hide, Criteria = "Not [Formato.Nombre] in ('1')", Context = "DetailView")]
         public DateTime FechaEmision
         {
             get { return _FechaEmision; }
@@ -98,6 +109,8 @@ namespace AuxArchivos.Module.BusinessObjects
 
         //DLG: F2
         private DateTime _FechaTranferencia;
+        [XafDisplayName("Fecha de transferencia")]
+        [Appearance("FechaTransF2", Visibility = ViewItemVisibility.Hide, Criteria = "Not [Formato.Nombre] in ('2')", Context = "DetailView")]
         public DateTime FechaTranferencia
         {
             get { return _FechaTranferencia; }
@@ -106,6 +119,8 @@ namespace AuxArchivos.Module.BusinessObjects
 
         //DLG: F2
         private int _NoTranferencia;
+        [XafDisplayName("No. de transferencia")]
+        [Appearance("NoTranferenciaF2", Visibility = ViewItemVisibility.Hide, Criteria = "Not [Formato.Nombre] in ('2')", Context = "DetailView")]
         public int NoTranferencia
         {
             get { return _NoTranferencia; }
@@ -114,6 +129,8 @@ namespace AuxArchivos.Module.BusinessObjects
 
         //DLG: F2
         private int _NoPaginas;
+        [XafDisplayName("No. de página(s)")]
+        [Appearance("PaginasF2", Visibility = ViewItemVisibility.Hide, Criteria = "[Formato.Nombre] != '2'", Context = "DetailView")]
         public int NoPaginas
         {
             get { return _NoPaginas; }
@@ -122,6 +139,8 @@ namespace AuxArchivos.Module.BusinessObjects
 
         //DLG: F2
         private int _NoExpedientes;
+        [XafDisplayName("Cantidad de expedientes")]
+        [Appearance("NoExpF2", Visibility = ViewItemVisibility.Hide, Criteria = "[Formato.Nombre] != '2'", Context = "DetailView")]
         public int NoExpedientes
         {
             get { return _NoExpedientes; }
@@ -130,6 +149,8 @@ namespace AuxArchivos.Module.BusinessObjects
 
         //DLG: F2
         private DateTime _AnioA;
+        [XafDisplayName("Año inicial")]
+        [Appearance("AniF2", Visibility = ViewItemVisibility.Hide, Criteria = "[Formato.Nombre] != '2'", Context = "DetailView")]
         public DateTime AnioA
         {
             get { return _AnioA; }
@@ -138,6 +159,8 @@ namespace AuxArchivos.Module.BusinessObjects
 
         //DLG: F2
         private DateTime _AnioB;
+        [XafDisplayName("Año final")]
+        [Appearance("Aniobf2", Visibility = ViewItemVisibility.Hide, Criteria = "[Formato.Nombre] != '2'", Context = "DetailView")]
         public DateTime AnioB
         {
             get { return _AnioB; }
@@ -146,6 +169,8 @@ namespace AuxArchivos.Module.BusinessObjects
 
         //DLG: F2
         private int _NoCajas;
+        [XafDisplayName("Cantidad de cajas")]
+        [Appearance("NoCajasF2", Visibility = ViewItemVisibility.Hide, Criteria = "[Formato.Nombre] != '2'", Context = "DetailView")]
         public int NoCajas
         {
             get { return _NoCajas; }
@@ -154,6 +179,8 @@ namespace AuxArchivos.Module.BusinessObjects
 
         //DLG: F2
         private int _Peso;
+        [XafDisplayName("Peso aproximado en kilogramos")]
+        [Appearance("Pesof2", Visibility = ViewItemVisibility.Hide, Criteria = "[Formato.Nombre] != '2'", Context = "DetailView")]
         public int Peso
         {
             get { return _Peso; }
@@ -163,6 +190,8 @@ namespace AuxArchivos.Module.BusinessObjects
         //DLG: Elaboro
         //DLG: F2
         private String _NombreElaboro;
+        [XafDisplayName("Nombre de Quién Elaboró")]
+        [Appearance("20", Visibility = ViewItemVisibility.Hide, Criteria = "[Formato.Nombre] != '2'", Context = "DetailView")]
         public String NombreElaboro
         {
             get { return _NombreElaboro; }
@@ -171,6 +200,8 @@ namespace AuxArchivos.Module.BusinessObjects
 
         //DLG: F2
         private String _CargoyAreaElaboro;
+        [XafDisplayName("Cargo y área")]
+        [Appearance("25", Visibility = ViewItemVisibility.Hide, Criteria = "[Formato.Nombre] != '2'", Context = "DetailView")]
         public String CargoyAreaElaboro
         {
             get { return _CargoyAreaElaboro; }
@@ -180,6 +211,8 @@ namespace AuxArchivos.Module.BusinessObjects
         //DLG: Reviso
         //DLG: F2
         private String _NombreReviso;
+        [XafDisplayName("Nombre de Quién Revisó")]
+        [Appearance("29", Visibility = ViewItemVisibility.Hide, Criteria = "[Formato.Nombre] != '2'", Context = "DetailView")]
         public String NombreReviso
         {
             get { return _NombreReviso; }
@@ -188,6 +221,8 @@ namespace AuxArchivos.Module.BusinessObjects
 
         //DLG: F2
         private String _CargoyAreaReviso;
+        [XafDisplayName("Cargo y área")]
+        [Appearance("30", Visibility = ViewItemVisibility.Hide, Criteria = "[Formato.Nombre] != '2'", Context = "DetailView")]
         public String CargoyAreaReviso
         {
             get { return _CargoyAreaReviso; }
@@ -197,6 +232,8 @@ namespace AuxArchivos.Module.BusinessObjects
         //DLG: Autorizo
         //DLG: F2
         private String _NombreAutorizo;
+        [XafDisplayName("Nombre de Quién Autorizó")]
+        [Appearance("31", Visibility = ViewItemVisibility.Hide, Criteria = "[Formato.Nombre] != '2'", Context = "DetailView")]
         public String NombreAutorizo
         {
             get { return _NombreAutorizo; }
@@ -205,6 +242,8 @@ namespace AuxArchivos.Module.BusinessObjects
 
         //DLG: F2
         private String _CargoyAreaAutorizo;
+        [XafDisplayName("Cargo y área")]
+        [Appearance("32", Visibility = ViewItemVisibility.Hide, Criteria = "[Formato.Nombre] != '2'", Context = "DetailView")]
         public String CargoyAreaAutorizo
         {
             get { return _CargoyAreaAutorizo; }
@@ -214,6 +253,8 @@ namespace AuxArchivos.Module.BusinessObjects
         //DLG: Valido
         //DLG: F2
         private String _NombreValido;
+        [XafDisplayName("Nombre de Quién Validó")]
+        [Appearance("33", Visibility = ViewItemVisibility.Hide, Criteria = "[Formato.Nombre] != '2'", Context = "DetailView")]
         public String NombreValido
         {
             get { return _NombreValido; }
@@ -222,6 +263,8 @@ namespace AuxArchivos.Module.BusinessObjects
 
         //DLG: F2
         private String _CargoyAreaValido;
+        [XafDisplayName("Cargo y área")]
+        [Appearance("35", Visibility = ViewItemVisibility.Hide, Criteria = "[Formato.Nombre] != '2'", Context = "DetailView")]
         public String CargoyAreaValido
         {
             get { return _CargoyAreaValido; }
