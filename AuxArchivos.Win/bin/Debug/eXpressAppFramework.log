@@ -27209,3 +27209,670 @@ Loaded assemblies
 
 16.04.20 20:51:24.154	Application stopping
 =====================
+16.04.20 21:23:49.606	================================================================================
+16.04.20 21:23:49.612	Trace Log for AuxArchivos.Win.exe is started
+16.04.20 21:23:49.613	================================================================================
+16.04.20 21:23:49.616	System Environment
+	OS Version: Microsoft Windows NT 6.2.9200.0
+	.Net Framework Versions: v2.0.50727, v4.0.30319
+	CLR Version: 4.0.30319.42000
+	eXpressApp Version: 18.2.12.0
+	eXpressApp File Version: 18.2.12.0
+
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+
+16.04.20 21:23:49.783	Initialize application
+=======================
+16.04.20 21:23:49.786		Command line arguments: 
+		D:\DevExpressProjects\AuxArchivos\AuxArchivos.Win\bin\Debug\AuxArchivos.Win.exe
+16.04.20 21:23:49.995	The ValueManagerType is initialized by the default value: SimpleValueManager.
+16.04.20 21:23:50.005	Stack trace:
+   en DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   en DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   en DevExpress.ExpressApp.ReportsV2.ApplicationReportObjectSpaceProvider.set_ContextApplication(XafApplication value)
+   en DevExpress.ExpressApp.ReportsV2.ReportsModuleV2.Setup(XafApplication application)
+   en DevExpress.ExpressApp.ModuleList.OnInsert(Int32 index, Object value)
+   en System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   en DevExpress.ExpressApp.Utils.BindingListBase`1.Add(T item)
+   en AuxArchivos.Win.AuxArchivosWindowsFormsApplication.InitializeComponent() en D:\DevExpressProjects\AuxArchivos\AuxArchivos.Win\WinApplication.Designer.cs:línea 103
+   en AuxArchivos.Win.AuxArchivosWindowsFormsApplication..ctor() en D:\DevExpressProjects\AuxArchivos\AuxArchivos.Win\WinApplication.cs:línea 28
+   en AuxArchivos.Win.Program.Main() en D:\DevExpressProjects\AuxArchivos\AuxArchivos.Win\Program.cs:línea 28
+
+16.04.20 21:23:50.251	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+16.04.20 21:23:50.252	--------------------------------------------------------------------------------
+							
+
+16.04.20 21:23:50.255	--------------------------------------------------------------------------------
+Loaded assemblies
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	AuxArchivos.Module, Version=1.0.7411.36996, Culture=neutral, PublicKeyToken=null, Location=D:\DevExpressProjects\AuxArchivos\AuxArchivos.Win\bin\Debug\AuxArchivos.Module.dll
+	AuxArchivos.Module.Win, Version=1.0.7411.36997, Culture=neutral, PublicKeyToken=null, Location=D:\DevExpressProjects\AuxArchivos\AuxArchivos.Win\bin\Debug\AuxArchivos.Module.Win.dll
+	AuxArchivos.Win, Version=1.0.7411.36998, Culture=neutral, PublicKeyToken=null, Location=D:\DevExpressProjects\AuxArchivos\AuxArchivos.Win\bin\Debug\AuxArchivos.Win.exe
+	DevExpress.Data.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.Data.v18.2.dll
+	DevExpress.ExpressApp.AuditTrail.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.AuditTrail.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.AuditTrail.v18.2.dll
+	DevExpress.ExpressApp.Chart.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Chart.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.Chart.v18.2.dll
+	DevExpress.ExpressApp.Chart.Win.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Chart.Win.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.Chart.Win.v18.2.dll
+	DevExpress.ExpressApp.CloneObject.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.CloneObject.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.CloneObject.v18.2.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalAppearance.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalAppearance.v18.2.dll
+	DevExpress.ExpressApp.Dashboards.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Dashboards.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.Dashboards.v18.2.dll
+	DevExpress.ExpressApp.Dashboards.Win.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Dashboards.Win.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.Dashboards.Win.v18.2.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.FileAttachment.Win.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.FileAttachment.Win.v18.2.dll
+	DevExpress.ExpressApp.HtmlPropertyEditor.Win.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.HtmlPropertyEditor.Win.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.HtmlPropertyEditor.Win.v18.2.dll
+	DevExpress.ExpressApp.ReportsV2.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.v18.2.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.Win.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.Win.v18.2.dll
+	DevExpress.ExpressApp.Security.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.v18.2.dll
+	DevExpress.ExpressApp.Security.Xpo.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.Xpo.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.Xpo.v18.2.dll
+	DevExpress.ExpressApp.StateMachine.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.StateMachine.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.StateMachine.v18.2.dll
+	DevExpress.ExpressApp.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.v18.2.dll
+	DevExpress.ExpressApp.v18.2.resources, Version=18.2.0.0, Culture=es, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v18.2.resources\v4.0_18.2.0.0_es_b88d1754d700e49a\DevExpress.ExpressApp.v18.2.resources.dll
+	DevExpress.ExpressApp.Validation.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v18.2.dll
+	DevExpress.ExpressApp.Validation.Win.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.Win.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.Win.v18.2.dll
+	DevExpress.ExpressApp.Win.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v18.2.dll
+	DevExpress.ExpressApp.Xpo.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v18.2.dll
+	DevExpress.Persistent.Base.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.Persistent.Base.v18.2.dll
+	DevExpress.Persistent.BaseImpl.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v18.2.dll
+	DevExpress.Printing.v18.2.Core, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v18.2.Core\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.Printing.v18.2.Core.dll
+	DevExpress.Utils.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.Utils.v18.2.dll
+	DevExpress.Xpo.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.Xpo.v18.2.dll
+	DevExpress.XtraBars.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.XtraBars.v18.2.dll
+	DevExpress.XtraEditors.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.XtraEditors.v18.2.dll
+	DevExpress.XtraReports.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.XtraReports.v18.2.dll
+	DevExpress.XtraReports.v18.2.Extensions, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v18.2.Extensions\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.XtraReports.v18.2.Extensions.dll
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	mscorlib.resources, Version=4.0.0.0, Culture=es, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_es_b77a5c561934e089\mscorlib.resources.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Design\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Design.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+	UIAutomationClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\UIAutomationClient\v4.0_4.0.0.0__31bf3856ad364e35\UIAutomationClient.dll
+16.04.20 21:23:50.412	SetupModules
+16.04.20 21:23:50.605	Customize TypesInfo
+16.04.20 21:23:54.303		preferredLanguageName: (User language)
+								userLanguageName: es-MX
+
+16.04.20 21:23:54.304		preferredLanguageName: (User language)
+								userFormattingCultureName: es-MX
+								selectedFormattingCultureName: 
+
+16.04.20 21:23:54.309	Logon With Parameters
+16.04.20 21:23:54.313		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 2db1e85e-ce23-45da-bdae-d95035ceabed
+								Category: Unspecified
+
+16.04.20 21:23:55.066	Generate default Model for Action containers
+16.04.20 21:23:56.983	--------------------------------------------------------------------------------
+							Execute action
+
+16.04.20 21:23:56.985		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Logon
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.LogonController
+								Context.Name: Conectarse
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters
+
+16.04.20 21:23:56.986	--------------------------------------------------------------------------------
+							Execute action
+
+16.04.20 21:23:56.987		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 2db1e85e-ce23-45da-bdae-d95035ceabed
+								Category: Unspecified
+
+16.04.20 21:23:57.063	--------------------------------------------------------------------------------
+							Start logon process
+
+16.04.20 21:23:57.065	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+16.04.20 21:23:57.066		ConnectionString: XpoProvider=Postgres;Server=127.0.0.1;User ID=postgres;Database=AuxArchivos;Encoding=UNICODE;XpoDataStorePool=True;
+16.04.20 21:23:57.067		ConnectionString: 
+16.04.20 21:23:58.191	--------------------------------------------------------------------------------
+							UpdateDB
+
+16.04.20 21:23:58.369		ConnectionString: XpoProvider=Postgres;Server=127.0.0.1;User ID=postgres;Database=AuxArchivos;Encoding=UNICODE;XpoDataStorePool=True;
+16.04.20 21:23:58.928	--------------------------------------------------------------------------------
+							Logon successful
+
+16.04.20 21:23:58.993	--------------------------------------------------------------------------------
+							Logon completed
+
+16.04.20 21:23:59.063	Action '2db1e85e-ce23-45da-bdae-d95035ceabed' done
+16.04.20 21:23:59.068	Window closing: Conectarse
+16.04.20 21:23:59.135	Action 'Logon' done
+16.04.20 21:23:59.137	Window closed: Conectarse
+16.04.20 21:23:59.209		startUpActions: 1
+16.04.20 21:23:59.238	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+16.04.20 21:24:01.558	Resolve the 'DevExpress.ExpressApp.Win.v18.2.XmlSerializers, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+16.04.20 21:24:01.641	Resolve the 'DevExpress.ExpressApp.Win.v18.2.XmlSerializers, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+16.04.20 21:24:03.656	--------------------------------------------------------------------------------
+							Execute action
+
+16.04.20 21:24:03.657		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+16.04.20 21:24:03.658	Action 'ConfigureSkin' done
+16.04.20 21:24:03.784	--------------------------------------------------------------------------------
+							Execute action
+
+16.04.20 21:24:03.785		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+16.04.20 21:24:03.786	Action 'ConfigureSkin' done
+16.04.20 21:24:04.405	Application startup done
+=========================
+16.04.20 21:24:04.406	Application running
+====================
+16.04.20 21:24:31.971	--------------------------------------------------------------------------------
+							Execute action
+
+16.04.20 21:24:31.973		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Formatos
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: 1
+
+16.04.20 21:24:32.851	Action 'ListViewShowObject' done
+16.04.20 21:24:35.922	--------------------------------------------------------------------------------
+							Execute action
+
+16.04.20 21:24:35.923		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Formatos De Archivo
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: 2
+
+16.04.20 21:24:36.330	'Formato' property editor: new value is '2'
+16.04.20 21:24:36.939	Action 'ListViewShowObject' done
+16.04.20 21:24:44.193	--------------------------------------------------------------------------------
+							Execute action
+
+16.04.20 21:24:44.195		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Formatos De Archivo
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: 4
+
+16.04.20 21:24:44.266	'Formato' property editor: new value is '4'
+16.04.20 21:24:44.365	Action 'ListViewShowObject' done
+16.04.20 21:24:46.025	--------------------------------------------------------------------------------
+							Execute action
+
+16.04.20 21:24:46.027		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Formatos De Archivo
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: 1
+
+16.04.20 21:24:46.101	'Formato' property editor: new value is '1'
+16.04.20 21:24:46.188	Action 'ListViewShowObject' done
+16.04.20 21:24:51.298	--------------------------------------------------------------------------------
+							Execute action
+
+16.04.20 21:24:51.299		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Formatos De Archivo
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: 2
+
+16.04.20 21:24:51.368	'Formato' property editor: new value is '2'
+16.04.20 21:24:51.496	Action 'ListViewShowObject' done
+16.04.20 22:19:38.358	'Formato' property editor: new value is '2'
+16.04.20 22:19:38.361	Window closing: Formatos
+16.04.20 22:19:38.369	Window closing: Informe
+16.04.20 22:19:38.370	Window closing: 1 - Formatos
+16.04.20 22:19:38.374	ConfirmationRequest: NeedSaveChanges
+16.04.20 22:19:38.374		DefaultConfirmationResult: No
+16.04.20 22:19:39.780		UserConfirmationResult: Yes
+16.04.20 22:19:39.907	Window closing: 1 - Formatos - AuxArchivos
+16.04.20 22:19:39.986	Window closed: Formatos
+16.04.20 22:19:39.990	Window closed: Informe
+16.04.20 22:19:39.991	Window closed: 1 - Formatos
+16.04.20 22:19:39.994	Window closed: 1 - Formatos - AuxArchivos
+16.04.20 22:19:40.445	Save model changes
+===================
+16.04.20 22:19:40.495	Save model changes
+===================
+16.04.20 22:19:40.519	--------------------------------------------------------------------------------
+							Logoff completed
+
+16.04.20 22:19:40.526	Application stopping
+=====================
+17.04.20 17:12:04.619	================================================================================
+17.04.20 17:12:04.645	Trace Log for AuxArchivos.Win.exe is started
+17.04.20 17:12:04.646	================================================================================
+17.04.20 17:12:04.648	System Environment
+	OS Version: Microsoft Windows NT 6.2.9200.0
+	.Net Framework Versions: v2.0.50727, v4.0.30319
+	CLR Version: 4.0.30319.42000
+	eXpressApp Version: 18.2.12.0
+	eXpressApp File Version: 18.2.12.0
+
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+
+17.04.20 17:12:06.098	Initialize application
+=======================
+17.04.20 17:12:06.100		Command line arguments: 
+		D:\DevExpressProjects\AuxArchivos\AuxArchivos.Win\bin\Debug\AuxArchivos.Win.exe
+17.04.20 17:12:08.224	The ValueManagerType is initialized by the default value: SimpleValueManager.
+17.04.20 17:12:08.492	Stack trace:
+   en DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   en DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   en DevExpress.ExpressApp.ReportsV2.ApplicationReportObjectSpaceProvider.set_ContextApplication(XafApplication value)
+   en DevExpress.ExpressApp.ReportsV2.ReportsModuleV2.Setup(XafApplication application)
+   en DevExpress.ExpressApp.ModuleList.OnInsert(Int32 index, Object value)
+   en System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   en DevExpress.ExpressApp.Utils.BindingListBase`1.Add(T item)
+   en AuxArchivos.Win.AuxArchivosWindowsFormsApplication.InitializeComponent() en D:\DevExpressProjects\AuxArchivos\AuxArchivos.Win\WinApplication.Designer.cs:línea 103
+   en AuxArchivos.Win.AuxArchivosWindowsFormsApplication..ctor() en D:\DevExpressProjects\AuxArchivos\AuxArchivos.Win\WinApplication.cs:línea 28
+   en AuxArchivos.Win.Program.Main() en D:\DevExpressProjects\AuxArchivos\AuxArchivos.Win\Program.cs:línea 28
+
+17.04.20 17:12:09.158	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+17.04.20 17:12:09.159	--------------------------------------------------------------------------------
+							
+
+17.04.20 17:12:09.162	--------------------------------------------------------------------------------
+Loaded assemblies
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	AuxArchivos.Module, Version=1.0.7412.30957, Culture=neutral, PublicKeyToken=null, Location=D:\DevExpressProjects\AuxArchivos\AuxArchivos.Win\bin\Debug\AuxArchivos.Module.dll
+	AuxArchivos.Module.Win, Version=1.0.7412.30958, Culture=neutral, PublicKeyToken=null, Location=D:\DevExpressProjects\AuxArchivos\AuxArchivos.Win\bin\Debug\AuxArchivos.Module.Win.dll
+	AuxArchivos.Win, Version=1.0.7412.30959, Culture=neutral, PublicKeyToken=null, Location=D:\DevExpressProjects\AuxArchivos\AuxArchivos.Win\bin\Debug\AuxArchivos.Win.exe
+	DevExpress.Data.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.Data.v18.2.dll
+	DevExpress.ExpressApp.AuditTrail.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.AuditTrail.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.AuditTrail.v18.2.dll
+	DevExpress.ExpressApp.Chart.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Chart.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.Chart.v18.2.dll
+	DevExpress.ExpressApp.Chart.Win.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Chart.Win.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.Chart.Win.v18.2.dll
+	DevExpress.ExpressApp.CloneObject.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.CloneObject.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.CloneObject.v18.2.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalAppearance.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalAppearance.v18.2.dll
+	DevExpress.ExpressApp.Dashboards.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Dashboards.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.Dashboards.v18.2.dll
+	DevExpress.ExpressApp.Dashboards.Win.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Dashboards.Win.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.Dashboards.Win.v18.2.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.FileAttachment.Win.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.FileAttachment.Win.v18.2.dll
+	DevExpress.ExpressApp.HtmlPropertyEditor.Win.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.HtmlPropertyEditor.Win.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.HtmlPropertyEditor.Win.v18.2.dll
+	DevExpress.ExpressApp.ReportsV2.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.v18.2.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.Win.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.Win.v18.2.dll
+	DevExpress.ExpressApp.Security.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.v18.2.dll
+	DevExpress.ExpressApp.Security.Xpo.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.Xpo.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.Xpo.v18.2.dll
+	DevExpress.ExpressApp.StateMachine.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.StateMachine.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.StateMachine.v18.2.dll
+	DevExpress.ExpressApp.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.v18.2.dll
+	DevExpress.ExpressApp.v18.2.resources, Version=18.2.0.0, Culture=es, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v18.2.resources\v4.0_18.2.0.0_es_b88d1754d700e49a\DevExpress.ExpressApp.v18.2.resources.dll
+	DevExpress.ExpressApp.Validation.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v18.2.dll
+	DevExpress.ExpressApp.Validation.Win.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.Win.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.Win.v18.2.dll
+	DevExpress.ExpressApp.Win.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v18.2.dll
+	DevExpress.ExpressApp.Xpo.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v18.2.dll
+	DevExpress.Persistent.Base.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.Persistent.Base.v18.2.dll
+	DevExpress.Persistent.BaseImpl.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v18.2.dll
+	DevExpress.Printing.v18.2.Core, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v18.2.Core\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.Printing.v18.2.Core.dll
+	DevExpress.Utils.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.Utils.v18.2.dll
+	DevExpress.Xpo.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.Xpo.v18.2.dll
+	DevExpress.XtraBars.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.XtraBars.v18.2.dll
+	DevExpress.XtraEditors.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.XtraEditors.v18.2.dll
+	DevExpress.XtraReports.v18.2, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v18.2\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.XtraReports.v18.2.dll
+	DevExpress.XtraReports.v18.2.Extensions, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v18.2.Extensions\v4.0_18.2.12.0__b88d1754d700e49a\DevExpress.XtraReports.v18.2.Extensions.dll
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	mscorlib.resources, Version=4.0.0.0, Culture=es, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_es_b77a5c561934e089\mscorlib.resources.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Design\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Design.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+	UIAutomationClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\UIAutomationClient\v4.0_4.0.0.0__31bf3856ad364e35\UIAutomationClient.dll
+17.04.20 17:12:10.593	SetupModules
+17.04.20 17:12:11.697	Customize TypesInfo
+17.04.20 17:12:16.551		preferredLanguageName: (User language)
+								userLanguageName: es-MX
+
+17.04.20 17:12:16.553		preferredLanguageName: (User language)
+								userFormattingCultureName: es-MX
+								selectedFormattingCultureName: 
+
+17.04.20 17:12:16.556	Logon With Parameters
+17.04.20 17:12:16.559		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 44fb39c1-229d-4e70-845a-f1091d64f245
+								Category: Unspecified
+
+17.04.20 17:12:17.629	Generate default Model for Action containers
+17.04.20 17:12:42.205	--------------------------------------------------------------------------------
+							Execute action
+
+17.04.20 17:12:42.206		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Logon
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.LogonController
+								Context.Name: Conectarse
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters
+
+17.04.20 17:12:42.207	--------------------------------------------------------------------------------
+							Execute action
+
+17.04.20 17:12:42.208		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 44fb39c1-229d-4e70-845a-f1091d64f245
+								Category: Unspecified
+
+17.04.20 17:12:42.290	--------------------------------------------------------------------------------
+							Start logon process
+
+17.04.20 17:12:42.292	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+17.04.20 17:12:42.292		ConnectionString: XpoProvider=Postgres;Server=127.0.0.1;User ID=postgres;Database=AuxArchivos;Encoding=UNICODE;XpoDataStorePool=True;
+17.04.20 17:12:42.293		ConnectionString: 
+17.04.20 17:12:44.321	--------------------------------------------------------------------------------
+							UpdateDB
+
+17.04.20 17:12:44.323		ConnectionString: XpoProvider=Postgres;Server=127.0.0.1;User ID=postgres;Database=AuxArchivos;Encoding=UNICODE;XpoDataStorePool=True;
+17.04.20 17:12:45.081	--------------------------------------------------------------------------------
+							Logon successful
+
+17.04.20 17:12:45.174	--------------------------------------------------------------------------------
+							Logon completed
+
+17.04.20 17:12:45.534	Action '44fb39c1-229d-4e70-845a-f1091d64f245' done
+17.04.20 17:12:45.542	Window closing: Conectarse
+17.04.20 17:12:46.125	Action 'Logon' done
+17.04.20 17:12:46.127	Window closed: Conectarse
+17.04.20 17:12:46.259		startUpActions: 1
+17.04.20 17:12:46.302	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+17.04.20 17:12:49.190	Resolve the 'DevExpress.ExpressApp.Win.v18.2.XmlSerializers, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+17.04.20 17:12:49.290	Resolve the 'DevExpress.ExpressApp.Win.v18.2.XmlSerializers, Version=18.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+17.04.20 17:12:53.693	--------------------------------------------------------------------------------
+							Execute action
+
+17.04.20 17:12:53.693		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+17.04.20 17:12:53.695	Action 'ConfigureSkin' done
+17.04.20 17:12:54.056	--------------------------------------------------------------------------------
+							Execute action
+
+17.04.20 17:12:54.057		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+17.04.20 17:12:54.059	Action 'ConfigureSkin' done
+17.04.20 17:12:55.059	Application startup done
+=========================
+17.04.20 17:12:55.060	Application running
+====================
+17.04.20 17:13:18.305	--------------------------------------------------------------------------------
+							Execute action
+
+17.04.20 17:13:18.306		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Formatos De Archivo
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: 1
+
+17.04.20 17:13:18.735	'Formato' property editor: new value is '1'
+17.04.20 17:13:18.957	Action 'ListViewShowObject' done
+17.04.20 17:20:11.571	'Formato' property editor: new value is '1'
+17.04.20 17:20:14.781	--------------------------------------------------------------------------------
+							Execute action
+
+17.04.20 17:20:14.781		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowInReportV2
+								Category: Reports
+								Controller.Name: DevExpress.ExpressApp.ReportsV2.PrintSelectionBaseController
+								Context.Name: Formatos
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: 1
+
+17.04.20 17:20:14.782		SelectedItem: 1. Formato de inventario general de archivo
+17.04.20 17:20:16.642	Action 'ShowInReportV2' done
+17.04.20 17:20:28.530	--------------------------------------------------------------------------------
+							Execute action
+
+17.04.20 17:20:28.531		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowInReportV2
+								Category: Reports
+								Controller.Name: DevExpress.ExpressApp.ReportsV2.PrintSelectionBaseController
+								Context.Name: Formatos
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: 1
+
+17.04.20 17:20:28.532		SelectedItem: 2. Formato de inventario de transferencia
+17.04.20 17:20:28.962	Action 'ShowInReportV2' done
+17.04.20 17:21:38.259	--------------------------------------------------------------------------------
+							Execute action
+
+17.04.20 17:21:38.261		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Formatos De Archivo
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: 2
+
+17.04.20 17:21:38.342	'Formato' property editor: new value is '2'
+17.04.20 17:21:38.475	Action 'ListViewShowObject' done
+17.04.20 17:21:42.012	--------------------------------------------------------------------------------
+							Execute action
+
+17.04.20 17:21:42.013		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Formatos De Archivo
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: 3
+
+17.04.20 17:21:42.101	'Formato' property editor: new value is '3'
+17.04.20 17:21:42.212	Action 'ListViewShowObject' done
+17.04.20 17:21:44.732	--------------------------------------------------------------------------------
+							Execute action
+
+17.04.20 17:21:44.734		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Formatos De Archivo
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: 3
+
+17.04.20 17:21:44.823	Action 'ListViewShowObject' done
+17.04.20 17:21:46.308	--------------------------------------------------------------------------------
+							Execute action
+
+17.04.20 17:21:46.309		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Formatos De Archivo
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: 4
+
+17.04.20 17:21:46.383	'Formato' property editor: new value is '4'
+17.04.20 17:21:46.419	Action 'ListViewShowObject' done
+17.04.20 17:21:47.708	--------------------------------------------------------------------------------
+							Execute action
+
+17.04.20 17:21:47.709		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Formatos De Archivo
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: 1
+
+17.04.20 17:21:47.783	'Formato' property editor: new value is '1'
+17.04.20 17:21:47.893	Action 'ListViewShowObject' done
+17.04.20 17:21:49.760	'Formato' property editor: new value is '1'
+17.04.20 17:21:53.051	--------------------------------------------------------------------------------
+							Execute action
+
+17.04.20 17:21:53.052		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+17.04.20 17:21:53.053		SelectedItem: Reportes
+17.04.20 17:21:53.335	Action 'ShowNavigationItem' done
+17.04.20 17:22:00.601	--------------------------------------------------------------------------------
+							Execute action
+
+17.04.20 17:22:00.602		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: New
+								Category: ObjectsCreation
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinNewObjectViewController
+								Context.Name: Informe
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.Persistent.BaseImpl.ReportDataV2(d46a3322-0516-4b24-94be-e21bc6ac1069)
+
+17.04.20 17:22:00.603		SelectedItem: Informe
+17.04.20 17:22:12.758	Resolve the 'Newtonsoft.Json' assembly
+17.04.20 17:22:12.759	Resolve the 'Newtonsoft.Json' assembly
+17.04.20 17:22:28.653	'DisplayName' property editor: new value is '4. Formato de inventario de desincorporación'
+17.04.20 17:22:55.812	'DataType' property editor: new value is 'AuxArchivos.Module.BusinessObjects.InventarioTransferencia.FormatosDeArchivo'
+17.04.20 17:23:03.020	'DataType' property editor: new value is 'AuxArchivos.Module.BusinessObjects.ArchivoGeneral'
+17.04.20 17:23:06.858	'DataType' property editor: new value is ''
+17.04.20 17:23:10.436	'DataType' property editor: new value is 'AuxArchivos.Module.BusinessObjects.AreasProductoras'
+17.04.20 17:23:16.919	'DataType' property editor: new value is 'AuxArchivos.Module.BusinessObjects.InventarioTransferencia.FormatosDeArchivo'
+17.04.20 17:23:22.882	'DataType' property editor: new value is 'AuxArchivos.Module.BusinessObjects.InventarioArchivo'
+17.04.20 20:14:02.394	'ReportType' property editor: new value is 'Label'
+17.04.20 20:14:09.386	'ReportType' property editor: new value is 'Standard'
+17.04.20 20:19:32.561	Action 'New' done
+17.04.20 20:19:34.701	--------------------------------------------------------------------------------
+							Execute action
+
+17.04.20 20:19:34.703		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Informe
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.Persistent.BaseImpl.ReportDataV2(d46a3322-0516-4b24-94be-e21bc6ac1069)
+
+17.04.20 20:19:34.715	Action 'Refresh' done
+17.04.20 20:19:35.404	--------------------------------------------------------------------------------
+							Execute action
+
+17.04.20 20:19:35.406		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Informe
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.Persistent.BaseImpl.ReportDataV2(d46a3322-0516-4b24-94be-e21bc6ac1069)
+
+17.04.20 20:19:35.428	Action 'Refresh' done
+17.04.20 20:19:39.426	--------------------------------------------------------------------------------
+							Execute action
+
+17.04.20 20:19:39.428		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: New
+								Category: ObjectsCreation
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinNewObjectViewController
+								Context.Name: Informe
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.Persistent.BaseImpl.ReportDataV2(d46a3322-0516-4b24-94be-e21bc6ac1069)
+
+17.04.20 20:19:39.428		SelectedItem: Informe
+17.04.20 20:19:41.110	Resolve the 'Newtonsoft.Json' assembly
+17.04.20 20:19:41.111	Resolve the 'Newtonsoft.Json' assembly
+17.04.20 20:19:45.653	'DataType' property editor: new value is 'AuxArchivos.Module.BusinessObjects.AreasProductoras'
+17.04.20 20:20:17.370	'DisplayName' property editor: new value is '4. Formato de inventario de desincorporación'
+17.04.20 20:20:23.214	'DataType' property editor: new value is 'AuxArchivos.Module.BusinessObjects.InventarioArchivo'
+17.04.20 20:43:00.054	Action 'New' done
+17.04.20 20:43:02.247	--------------------------------------------------------------------------------
+							Execute action
+
+17.04.20 20:43:02.248		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Informe
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.Persistent.BaseImpl.ReportDataV2(dcb5f171-08f2-494e-b3b5-0f4ed093a353)
+
+17.04.20 20:43:02.249	--------------------------------------------------------------------------------
+							Execute action
+
+17.04.20 20:43:02.250		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ExecuteReportV2
+								Category: Reports
+								Controller.Name: DevExpress.ExpressApp.ReportsV2.Win.WinReportsController
+								Context.Name: Informe
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.Persistent.BaseImpl.ReportDataV2(dcb5f171-08f2-494e-b3b5-0f4ed093a353)
+
+17.04.20 20:43:02.704	Action 'ExecuteReportV2' done
+17.04.20 20:43:02.706	Action 'ListViewShowObject' done
+17.04.20 21:03:33.190	Window closing: 1 - Formatos
+17.04.20 21:03:33.289	ConfirmationRequest: NeedSaveChanges
+17.04.20 21:03:33.290		DefaultConfirmationResult: No
+17.04.20 21:03:34.517		UserConfirmationResult: Yes
+17.04.20 21:03:34.558	Window closing: Formatos
+17.04.20 21:03:34.560	Window closing: Informe
+17.04.20 21:03:34.561	Window closing: 1 - Formatos - AuxArchivos
+17.04.20 21:03:34.614	Window closed: 1 - Formatos
+17.04.20 21:03:34.617	Window closed: Formatos
+17.04.20 21:03:34.618	Window closed: Informe
+17.04.20 21:03:34.619	Window closed: 1 - Formatos - AuxArchivos
+17.04.20 21:03:34.882	Save model changes
+===================
+17.04.20 21:03:34.915	Save model changes
+===================
+17.04.20 21:03:34.932	--------------------------------------------------------------------------------
+							Logoff completed
+
+17.04.20 21:03:34.937	Application stopping
+=====================

@@ -185,6 +185,42 @@ namespace AuxArchivos.Module.BusinessObjects
             get { return _UbicacionTipografica; }
             set { SetPropertyValue("UbicacionTipografica", ref _UbicacionTipografica, value); }
         }
+        //DLG: F4
+        private int _NumeroExpedientesPorCaja;
+        public int NumeroExpedientesPorCaja
+        {
+            get { return _NumeroExpedientesPorCaja; }
+            set { SetPropertyValue("NumeroExpedientesPorCaja", ref _NumeroExpedientesPorCaja, value); }
+        }
+        //DLG: F4
+        //DLG: Fechas Extremas
+        private String _FechaExtremas;
+        public String FechaExtremas
+        {
+            get { return _FechaExtremas; }
+            set { SetPropertyValue("FechaExtremas", ref _FechaExtremas, value); }
+        }
+        //DLG: F4
+        private String _DescripcionDocumental;
+        public String DescripcionDocumental
+        {
+            get { return _DescripcionDocumental; }
+            set { SetPropertyValue("DescripcionDocumental", ref _DescripcionDocumental, value); }
+        }
+        //DLG: F4
+        private String _ComprovacionAdministrativa;
+        public String ComprovacionAdministrativa
+        {
+            get { return _ComprovacionAdministrativa; }
+            set { SetPropertyValue("ComprovacionAdministrativa", ref _ComprovacionAdministrativa, value); }
+        }
+        //DLG: F4
+        private String _Observaciones;
+        public String Observaciones
+        {
+            get { return _Observaciones; }
+            set { SetPropertyValue("Observaciones", ref _Observaciones, value); }
+        }
 
         public override void AfterConstruction()
         {
